@@ -30,3 +30,4 @@ function merge(left, right){
   }  
   return result.concat(left.slice(l)).concat(right.slice(r));
 }
+module.exports = mergeSort;
