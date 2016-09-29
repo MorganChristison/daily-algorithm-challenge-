@@ -20,6 +20,6 @@ test('test mergesort', function(t){
 });
 
 test('test quickSort', function(t){
-	t.deepEqual(quickSort([1,3,2,5,4]), [1,2,3,4,5]);
+	t.deepEqual(quickSort([1,3,2,5,4],0,4), [1,2,3,4,5]);
 	t.end();
 });
