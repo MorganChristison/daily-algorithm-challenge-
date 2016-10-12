@@ -3,6 +3,7 @@ var bubbleSort = require('./../challenges/challenge1');
 var selectionSort = require('./../challenges/challenge2');
 var mergeSort = require('./../challenges/challenge3');
 var quickSort = require('./../challenges/challenge4');
+var heapSort = require('./..challenges/challenge5');
 
 test('test bubblesort', function(t){
 	t.deepEqual(bubbleSort([1,4,5,2,3]), [1,2,3,4,5]);
