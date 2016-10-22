@@ -5,6 +5,7 @@ var mergeSort = require('./../challenges/challenge3');
 var quickSort = require('./../challenges/challenge4');
 var heapSort = require('./../challenges/challenge5');
 var fibonacci = require('./../challenges/challenge6');
+var swapNum = require('./../challenges/challenge7');
 
 test('test bubblesort', function(t){
 	t.deepEqual(bubbleSort([1,4,5,2,3]), [1,2,3,4,5]);
@@ -31,5 +32,9 @@ test('test heapSort', function(t){
 });
 test('test fibonacci', function(t){
 	t.equal(fibonacci(12), 144);
+	t.end();
+});
+test('test swapNum', function(t){
+	t.equal(swapNum(2,3), '3 2');
 	t.end();
 });
