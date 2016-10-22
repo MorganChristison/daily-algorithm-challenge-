@@ -3,3 +3,4 @@ function swapNum(a, b){
   a = a + b;
   b = a - b;
 };
+module.export = swapNum;
